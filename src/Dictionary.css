@@ -1,0 +1,22 @@
+.form {
+  margin-top: 50px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #8cdbb9;
+  text-align: center;
+}
+
+.hint {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.input-field input[type="text"]:focus {
+  color: #8cdbb9;
+}

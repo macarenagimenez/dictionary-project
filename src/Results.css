@@ -1,0 +1,11 @@
+.Results {
+  margin-top: 20px;
+  background-color: #8cdbb9;
+  padding: 5px 20px;
+}
+.Results h2 {
+  padding: 10px 20px;
+  text-align: left;
+  letter-spacing: 10px;
+  font-weight: 300;
+}

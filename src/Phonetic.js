@@ -4,9 +4,6 @@ import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import ReactAudioPlayer from "react-audio-player";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay } from "@fortawesome/free-solid-svg-icons";
-
 export default function Phonetic(props) {
   return (
     <div className="Phonetic">

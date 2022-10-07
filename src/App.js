@@ -18,7 +18,7 @@ function App() {
           alt="imagediccionary"
         />
         <h1 className="title">Dictionary</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword="Sunshine" />
         <hr />
         <small className="autor">
           {" "}

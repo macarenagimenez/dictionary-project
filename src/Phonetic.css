@@ -3,7 +3,12 @@
 }
 
 .Phonetic {
-  margin-top: 10px;
+  margin-top: 20px;
   font-weight: 200;
   font-size: 12px;
+}
+
+.AudioPlayer {
+  width: 150px;
+  height: 30px;
 }

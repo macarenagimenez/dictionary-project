@@ -4,7 +4,6 @@ import { Col } from "react-bootstrap";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
   if (props.photos) {
     return (
       <section className="Photos">

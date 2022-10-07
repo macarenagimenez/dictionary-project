@@ -5,7 +5,8 @@ import "./App.css";
 import { Container } from "react-bootstrap";
 import "./imagediccionary.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
         <h1 className="title">Dictionary</h1>
         <Dictionary />
         <hr />
-        <small>
+        <small className="autor">
           {" "}
-          <FontAwesomeIcon icon={faCode} />{" "}
+          <FontAwesomeIcon icon={faGithub} />
           <a
             href="https://github.com/macarenagimenez/dictionary-project"
             target="_blank"
@@ -30,8 +31,16 @@ function App() {
             {" "}
             Open source code{" "}
           </a>{" "}
-          by Macu Gimenez.
-        </small>
+          by{" "}
+          <a
+            href="https://www.linkedin.com/in/maria-macarena-gimenez"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Macu Gimenez
+          </a>{" "}
+          <FontAwesomeIcon icon={faLinkedin} />
+        </small>{" "}
       </Container>
     </div>
   );

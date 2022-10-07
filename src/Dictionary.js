@@ -28,7 +28,7 @@ export default function Dictionary() {
           <input
             type="search"
             onChange={storeInputForm}
-            placeholder="What word would you like to looking for?"
+            placeholder="What word would you like to look for?"
           />
         </form>
         <div className="hint">suggested words: sunset, sunrise, travel...</div>

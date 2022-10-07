@@ -1,0 +1,12 @@
+.synonym {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.synonymWord {
+  border: 1px solid #898989;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+}

@@ -1,6 +1,9 @@
 .icon {
   color: black;
 }
-.textPhonetic {
+
+.Phonetic {
+  margin-top: 10px;
   font-weight: 200;
+  font-size: 12px;
 }
